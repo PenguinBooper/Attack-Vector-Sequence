@@ -52,9 +52,9 @@ try:
 
     while True:
 
-        spoof("10.0.2.7", "10.0.2.1")
+        spoof("10.0.2.1", "10.0.2.3")
 
-        spoof("10.0.2.1", "10.0.2.7")
+        spoof("10.0.2.3", "10.0.2.1")
 
         packets_sent_count = packets_sent_count + 2
 
